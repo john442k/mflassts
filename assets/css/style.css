@@ -1,0 +1,37 @@
+/* Export Button */
+
+.buttons-collection {
+    background-color: #727CF5;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 8px 4px 8px;
+    margin-right: 3px;
+}
+
+.dt-down-arrow {
+    display: none !important;
+}
+
+.dt-button-collection{
+    border: none !important;
+    width: 151px !important;
+}
+
+.dt-button-collection .dt-button {
+    min-width: 150px !important;
+}
+
+.buttons-html5, .export-btn{
+    background-color: white !important;
+    color: black;
+    border: none !important;
+    text-align: left;
+    padding-left: 10px;
+    height: 30px;
+    width: 80px !important;
+}
+
+.buttons-html5:hover, .export-btn:hover{
+    background-color: #EAEAEA !important;
+}
+

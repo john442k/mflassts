@@ -19,7 +19,7 @@ $(document).ready(function() {
         buttons: [
             {
                 extend: 'collection',
-                text: '<span class="mdi mdi-export" style="color:white !important;"> Export</span>',
+                text: '<span class="mdi mdi-export" style="color:white !important;"> Eport</span>',
                 autoClose: true,
                 buttons: [
                     { text: '<span class="mdi mdi-content-copy" style="color: gray;"> Copy</span>', extend: 'copyHtml5'},

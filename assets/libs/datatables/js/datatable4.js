@@ -1,6 +1,6 @@
 $(document).ready(function() {
     "use strict";
-    var a = $("#userLogs").DataTable({
+    $("#userLogs").DataTable({
         pagingType:  "full_numbers",
         order: [],
         dom: '<"top d-flex justify-content-between"<"dt-left-col d-flex align-items-center"l><"dt-right-group d-flex"Bf>>rt<"bottom d-flex justify-content-between"<"dt-info d-flex align-items-center"i><"dt-pagination"p>>',
@@ -42,9 +42,9 @@ $(document).ready(function() {
             $(".dataTables_paginate > .pagination").addClass("pagination-rounded")
         }
     });
-
-
-
+    
+    
+    
     $("#msgLogs").DataTable({
         pagingType:  "full_numbers",
         order: [],
@@ -87,3 +87,5 @@ $(document).ready(function() {
             $(".dataTables_paginate > .pagination").addClass("pagination-rounded")
         }
     });
+    
+});

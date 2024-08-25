@@ -45,7 +45,7 @@ $(document).ready(function() {
 
 
 
-    var a = $("#msgLogs").DataTable({
+    $("#msgLogs").DataTable({
         pagingType:  "full_numbers",
         order: [],
         dom: '<"top d-flex justify-content-between"<"dt-left-col d-flex align-items-center"l><"dt-right-group d-flex"Bf>>rt<"bottom d-flex justify-content-between"<"dt-info d-flex align-items-center"i><"dt-pagination"p>>',

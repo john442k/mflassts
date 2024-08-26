@@ -1,7 +1,7 @@
 $(document).ready(function() {
     "use strict";
     $("#userLogs").DataTable({
-        responsive: !0,
+        responsive: true,
         pagingType:  "full_numbers",
         order: [],
         dom: '<"top d-flex justify-content-between"<"dt-left-col d-flex align-items-center"l><"dt-right-group d-flex"Bf>>rt<"bottom d-flex justify-content-between"<"dt-info d-flex align-items-center"i><"dt-pagination"p>>',
@@ -47,7 +47,7 @@ $(document).ready(function() {
     
     
     $("#msgLogs").DataTable({
-        responsive: !0,
+        responsive: true,
         pagingType:  "full_numbers",
         order: [],
         dom: '<"top d-flex justify-content-between"<"dt-left-col d-flex align-items-center"l><"dt-right-group d-flex"Bf>>rt<"bottom d-flex justify-content-between"<"dt-info d-flex align-items-center"i><"dt-pagination"p>>',
@@ -92,7 +92,7 @@ $(document).ready(function() {
 
     
     $("#msgDetails").DataTable({
-        responsive: !0,
+        responsive: true,
         pagingType:  "full_numbers",
         order: [],
         dom: '<"top d-flex justify-content-between"<"dt-left-col d-flex align-items-center"l><"dt-right-group d-flex"Bf>>rt<"bottom d-flex justify-content-between"<"dt-info d-flex align-items-center"i><"dt-pagination"p>>',

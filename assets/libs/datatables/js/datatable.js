@@ -134,5 +134,21 @@ $(document).ready(function() {
             $(".dataTables_paginate > .pagination").addClass("pagination-rounded")
         }
     });
+
+    $(document).ready(function() {
+    var a = $("#fixed-header-datatable").DataTable({
+        responsive: !0,
+        language: {
+            paginate: {
+                previous: "<i class='mdi mdi-chevron-left'>",
+                next: "<i class='mdi mdi-chevron-right'>"
+            }
+        },
+        drawCallback: function() {
+            $(".dataTables_paginate > .pagination").addClass("pagination-rounded")
+        }
+    });
+    new $.fn.dataTable.FixedHeader(a)
+    });
     
 });
